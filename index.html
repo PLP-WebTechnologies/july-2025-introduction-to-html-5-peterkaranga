@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Accessible and SEO-friendly web page about sustainable gardening practices for urban environments">
+    <meta name="keywords" content="sustainable gardening, urban gardening, eco-friendly plants, container gardening">
+    <meta name="author" content="Green Thumb Initiative">
+    <title>Sustainable Urban Gardening | Green Thumb Initiative</title>
+    
+    <!-- Structured data for SEO (optional but recommended) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Sustainable Urban Gardening",
+      "description": "Learn eco-friendly gardening practices for small urban spaces",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Green Thumb Initiative"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header role="banner">
+        <h1>Green Thumb Initiative</h1>
+        <p>Making urban spaces greener, one plant at a time</p>
+        
+        <nav aria-label="Primary navigation">
+            <h2 class="visually-hidden">Main Menu</h2>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#techniques">Gardening Techniques</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="main-content" role="main">
+        <article>
+            <header>
+                <h2>Sustainable Gardening in Urban Environments</h2>
+                <p>Published on <time datetime="2023-11-15">November 15, 2024</time></p>
+            </header>
+            
+            <section id="about" aria-labelledby="about-heading">
+                <h3 id="about-heading">Why Urban Gardening Matters</h3>
+                <p>With over <strong>55% of the world's population</strong> living in urban areas, creating green spaces in cities has never been more important. Urban gardening helps:</p>
+                <ul>
+                    <li>Reduce urban heat island effect</li>
+                    <li>Improve air quality</li>
+                    <li>Provide local food sources</li>
+                    <li>Support biodiversity</li>
+                </ul>
+                
+                <figure>
+                    <img src="urban-garden.jpg" alt="A thriving container garden on an apartment balcony with various vegetables and flowers" width="600" height="400">
+                    <figcaption>Container gardening maximizes small urban spaces</figcaption>
+                </figure>
+            </section>
+            
+            <section id="techniques" aria-labelledby="techniques-heading">
+                <h3 id="techniques-heading">Sustainable Techniques</h3>
+                
+                <section aria-labelledby="container-gardening-heading">
+                    <h4 id="container-gardening-heading">Container Gardening</h4>
+                    <p>Perfect for balconies and small patios. Use recycled containers to reduce waste.</p>
+                </section>
+                
+                <section aria-labelledby="composting-heading">
+                    <h4 id="composting-heading">Vermicomposting</h4>
+                    <p>Small-scale composting with worms that can be done indoors.</p>
+                </section>
+                
+                <section aria-labelledby="water-heading">
+                    <h4 id="water-heading">Water Conservation</h4>
+                    <p>Collect rainwater and use drip irrigation systems to minimize water usage.</p>
+                </section>
+            </section>
+            
+            <aside aria-label="Did you know?">
+                <h3>Did You Know?</h3>
+                <p>A single tree can absorb up to 48 pounds of carbon dioxide per year!</p>
+            </aside>
+            
+            <section id="resources" aria-labelledby="resources-heading">
+                <h3 id="resources-heading">Recommended Resources</h3>
+                <ul>
+                    <li><a href="https://www.epa.gov/green-infrastructure" rel="noopener noreferrer">EPA Green Infrastructure</a></li>
+                    <li><a href="https://www.urbangardening.org" rel="noopener noreferrer">Urban Gardening Association</a></li>
+                    <li><a href="https://www.sustainable.org" rel="noopener noreferrer">Sustainable Living Foundation</a></li>
+                </ul>
+            </section>
+        </article>
+    </main>
+    
+    <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact Us</h2>
+        <form action="/submit-form" method="post">
+            <fieldset>
+                <legend>Send us your gardening questions</legend>
+                
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required aria-required="true">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required aria-required="true">
+                
+                <label for="question">Your Question:</label>
+                <textarea id="question" name="question" rows="4" required aria-required="true"></textarea>
+                
+                <button type="submit">Submit Question</button>
+            </fieldset>
+        </form>
+    </section>
+    
+    <footer role="contentinfo">
+        <h2 class="visually-hidden">Footer Information</h2>
+        <p>&copy; 2025 peter mwangi karanga. All rights reserved.</p>
+        <address>
+            Contact us at <a href="mailto:peterkaranga73@gmail.com">peterkaranga73@gmail.com</a>
+        </address>
+        <p><small>This content is available under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons License</a>.</small></p>
+    </footer>
+</body>
+</html>
